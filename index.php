@@ -288,6 +288,41 @@
         </div>
       </div>
     </div>
+
+
+    <div class="container">
+          <div class="row" style="padding: 0;margin: 0;">
+      <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExample" data-slide-to="1"></li>
+
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img class="d-block w-100"  src="assets/img/theme/marcas.jpg" alt="First slide">
+
+            </div>
+            <div class="carousel-item">
+
+                <img class="d-block w-100"  src="assets/img/theme/marcas.jpg" alt="First slide">
+
+
+            </div>
+          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
   <!-- Footer -->
   <footer class="py-5" id="footer-main">
