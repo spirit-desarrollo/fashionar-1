@@ -197,7 +197,7 @@
                 <a href="#!" class="text-light">Request a demo</a>
               </div>
             </div>
-            <div class="card card-pricing bg-gradient-success zoom-in shadow-lg rounded border-0 text-center mb-4">
+            <div class="card card-pricing bg-gradient-light zoom-in shadow-lg rounded border-0 text-center mb-4">
               <div class="card-header bg-transparent">
                 <h4 class="text-uppercase ls-1 text-white py-3 mb-0">Alpha pack</h4>
               </div>
