@@ -103,20 +103,49 @@
             </a>
           </li>
           <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;">
+            <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="btn-inner--icon">
                 <i class="fas fa-key mr-2"></i>
               </span>
               <span class="nav-link-inner--text">Login</span>
             </a>
+
+            <div class="col-auto">
+                  <div class="dropdown-menu dropdown-menu-right" style="">
+                    <a class="dropdown-item" href="login.php" target="_blank">
+                                          <span class="btn-inner--icon">
+                        <i class="fas fa-user mr-2"></i>
+                      </span>
+                      Persona</a>
+                    <a class="dropdown-item" href="login.php" target="_blank">
+                      <span class="btn-inner--icon">
+                        <i class="fas fa-shopping-bag mr-2"></i>
+                      </span>
+                    Empresa</a>
+                  </div>
+            </div>
           </li>
-                    <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;">
+          <li class="nav-item d-none d-lg-block ml-lg-4">
+            <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="btn-inner--icon">
                 <i class="fas fa-user mr-2"></i>
               </span>
               <span class="nav-link-inner--text">Registrate</span>
             </a>
+            <div class="col-auto">
+                <div class="dropdown-menu dropdown-menu-right" style="">
+                  <a class="dropdown-item" href="login.php" target="_blank">
+                                        <span class="btn-inner--icon">
+                      <i class="fas fa-user mr-2"></i>
+                    </span>
+                    Persona</a>
+                  <a class="dropdown-item" href="login.php" target="_blank">
+                    <span class="btn-inner--icon">
+                      <i class="fas fa-shopping-bag mr-2"></i>
+                    </span>
+                  Empresa</a>
+                </div>
+              </div>
           </li>
         </ul>
       </div>

@@ -129,40 +129,40 @@
 
             <div class="col-auto">
                   <div class="dropdown-menu dropdown-menu-right" style="">
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="login.php" target="_blank">
                                           <span class="btn-inner--icon">
                         <i class="fas fa-user mr-2"></i>
                       </span>
-                      Individuo</a>
-                    <a class="dropdown-item" href="#">
+                      Persona</a>
+                    <a class="dropdown-item" href="login.php" target="_blank">
                       <span class="btn-inner--icon">
                         <i class="fas fa-shopping-bag mr-2"></i>
                       </span>
                     Empresa</a>
                   </div>
-                </div>
+            </div>
           </li>
-                    <li class="nav-item d-none d-lg-block ml-lg-4">
+          <li class="nav-item d-none d-lg-block ml-lg-4">
             <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="btn-inner--icon">
                 <i class="fas fa-user mr-2"></i>
               </span>
               <span class="nav-link-inner--text">Registrate</span>
             </a>
-                        <div class="col-auto">
-                  <div class="dropdown-menu dropdown-menu-right" style="">
-                    <a class="dropdown-item" href="#">
-                                          <span class="btn-inner--icon">
-                        <i class="fas fa-user mr-2"></i>
-                      </span>
-                      Individuo</a>
-                    <a class="dropdown-item" href="#">
-                      <span class="btn-inner--icon">
-                        <i class="fas fa-shopping-bag mr-2"></i>
-                      </span>
-                    Empresa</a>
-                  </div>
+            <div class="col-auto">
+                <div class="dropdown-menu dropdown-menu-right" style="">
+                  <a class="dropdown-item" href="login.php" target="_blank">
+                                        <span class="btn-inner--icon">
+                      <i class="fas fa-user mr-2"></i>
+                    </span>
+                    Persona</a>
+                  <a class="dropdown-item" href="login.php" target="_blank">
+                    <span class="btn-inner--icon">
+                      <i class="fas fa-shopping-bag mr-2"></i>
+                    </span>
+                  Empresa</a>
                 </div>
+              </div>
           </li>
         </ul>
       </div>
@@ -184,7 +184,7 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
 
-                <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
+                <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block card" style="background-color: #adb5bda1;">
                         <h1>Bienvenida a FashionAR</h1>
                         <p class="lead"> Tu sitio de asesoramiento de imagen en donde aprenderás a conocerte y a potenciar tu imagen, proyectando tu mejor versión. ¿Comenzamos?</p>
@@ -194,9 +194,9 @@
             </div>
             <div class="carousel-item">
 
-                <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
+                <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block card" style="background-color: #adb5bda1;">
-                        <h1>1. Cuerpo</h1>
+                        <h1>1. Tipo de Cuerpo</h1>
                         <p class="lead">Conocer tu cuerpo, aprender a vestirlo, apreciar las características singulares que te definen y que realzan quién sos, es el primer paso para ganar confianza y empoderamiento para reflejar tu belleza única.</p>
                         <!--a href="#" class="btn btn-lg btn-primary">Learn More</a-->
                 </div>
