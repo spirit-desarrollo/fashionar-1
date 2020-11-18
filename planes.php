@@ -72,12 +72,12 @@
             </a>
           </li>  
                               <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="planes.php" class="nav-link">
               <span class="nav-link-inner--text">Planes</span>
             </a>
           </li>  
                     <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="contacto.php" class="nav-link">
               <span class="nav-link-inner--text">Contacto</span>
             </a>
           </li>      
@@ -123,26 +123,14 @@
     </div>
   </nav>
   <!-- Main content -->
-  <div class="main-content" >
-
-
-    
-
-
+<div class="main-content">
     <!-- Header -->
     <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
-
       <div class="container">
-
-          <div class="header-body text-center mb-7">
+        <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
-          <div class="col-xl-5 col-lg-6 col-md-8 px-5">
-              <h1 class="text-white">Welcome!</h1>
-              <p class="text-lead text-white">Use these awesome forms to login or create new account in your project for free.</p>
-            </div>
-
-
-
+            <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+              <h1 class="text-white">Choose the best plan for your business</h1>
             </div>
           </div>
         </div>
@@ -152,175 +140,185 @@
           <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
-
     </div>
     <!-- Page content -->
     <div class="container mt--8 pb-5">
       <div class="row justify-content-center">
-        <div class="col-lg-12 col-md-12">
-                <div class="col-md-12">
-                <!--div class="row">
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div class="col-lg-10">
+          <div class="pricing card-group flex-column flex-md-row mb-3">
+            <div class="card card-pricing border-0 text-center mb-4">
+              <div class="card-header bg-transparent">
+                <h4 class="text-uppercase ls-1 text-primary py-3 mb-0">Bravo pack</h4>
+              </div>
+              <div class="card-body px-lg-7">
+                <div class="display-2">$49</div>
+                <span class="text-muted">per application</span>
+                <ul class="list-unstyled my-4">
+                  <li>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="icon icon-xs icon-shape bg-gradient-primary shadow rounded-circle text-white">
+                          <i class="fas fa-terminal"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="pl-2">Complete documentation</span>
                       </div>
                     </div>
-                  </div>
-
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="icon icon-xs icon-shape bg-gradient-primary shadow rounded-circle text-white">
+                          <i class="fas fa-pen-fancy"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="pl-2">Working materials in Sketch</span>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="icon icon-xs icon-shape bg-gradient-primary shadow rounded-circle text-white">
+                          <i class="fas fa-hdd"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="pl-2">2GB cloud storage</span>
                       </div>
                     </div>
-                  </div>
-                </div-->
-
-                <div class="row">
-<div class="col-xl-4 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
-                      <span class="h2 font-weight-bold mb-0">$ 924</span>
-                      <p class="card-text mb-20" style="    margin: 30px 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                        <i class="ni ni-money-coins"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="mt-3 mb-0 text-sm">
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </p>
-                </div>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-primary mb-3">Start free trial</button>
+              </div>
+              <div class="card-footer">
+                <a href="#!" class="text-light">Request a demo</a>
               </div>
             </div>
-
-<div class="col-xl-4 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
-                      <span class="h2 font-weight-bold mb-0">$ 924</span>
-                      <p class="card-text mb-20" style="    margin: 30px 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                        <i class="ni ni-money-coins"></i>
+            <div class="card card-pricing bg-gradient-success zoom-in shadow-lg rounded border-0 text-center mb-4">
+              <div class="card-header bg-transparent">
+                <h4 class="text-uppercase ls-1 text-white py-3 mb-0">Alpha pack</h4>
+              </div>
+              <div class="card-body px-lg-7">
+                <div class="display-1 text-white">$199</div>
+                <span class="text-white">per application</span>
+                <ul class="list-unstyled my-4">
+                  <li>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-muted">
+                          <i class="fas fa-terminal"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="pl-2 text-white">Complete documentation</span>
                       </div>
                     </div>
-                  </div>
-                  <p class="mt-3 mb-0 text-sm">
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
-           <div class="col-xl-4 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
-                      <span class="h2 font-weight-bold mb-0">$ 924</span>
-                      <p class="card-text mb-20" style="    margin: 30px 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                        <i class="ni ni-money-coins"></i>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-muted">
+                          <i class="fas fa-pen-fancy"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="pl-2 text-white">Working materials in Sketch</span>
                       </div>
                     </div>
-                  </div>
-                  <p class="mt-3 mb-0 text-sm">
-                    <a href="#" class="btn btn-primary">Comprar</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-
-              </div>
-          <!--div class="card bg-secondary border-0 mb-0">
-            <div class="card-header bg-transparent pb-5">
-              <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión en tu cuenta</small></div>
-              <div class="btn-wrapper text-center">
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <span class="btn-inner--icon"><img src="assets/img/icons/common/facebook.png"></span>
-                  <span class="btn-inner--text">Facebook</span>
-                </a>
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <span class="btn-inner--icon"><img src="assets/img/icons/common/google.svg"></span>
-                  <span class="btn-inner--text">Google</span>
-                </a>
-              </div>
-            </div>
-            <div class="card-body px-lg-5 py-lg-5" >
-              <div class="text-center text-muted mb-4">
-                <small>Login</small>
-              </div>
-              <form role="form">
-                <div class="form-group mb-3">
-                  <div class="input-group input-group-merge input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
+                  </li>
+                  <li>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <div class="icon icon-xs icon-shape bg-white shadow rounded-circle text-muted">
+                          <i class="fas fa-hdd"></i>
+                        </div>
+                      </div>
+                      <div>
+                        <span class="pl-2 text-white">2GB cloud storage</span>
+                      </div>
                     </div>
-                    <input class="form-control" placeholder="Email" type="email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group input-group-merge input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Password" type="password">
-                  </div>
-                </div>
-                <div class="custom-control custom-control-alternative custom-checkbox">
-                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
-                  <label class="custom-control-label" for=" customCheckLogin">
-                    <span class="text-muted">Recuérdame</span>
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Inicia sesión</button>
-                </div>
-              </form>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-secondary mb-3">Start free trial</button>
+              </div>
+              <div class="card-footer bg-transparent">
+                <a href="#!" class="text-white">Contact sales</a>
+              </div>
             </div>
           </div>
-          <div class="row mt-3">
-            <div class="col-6">
-              <a href="#" class="text-light"><small>Olvidé mi contraseña</small></a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-lg-center px-3 mt-5">
+        <div class="row mt--5">
+        <div class="col-md-10 ml-auto mr-auto">
+          <div class="card card-upgrade">
+            <div class="card-header text-center border-bottom-0">
+              <h4 class="card-title">Argon Dashboard PRO</h4>
+              <p class="card-category">Are you looking for more components? Please check our Premium Version of Argon Dashboard.</p>
             </div>
-            <div class="col-6 text-right">
-              <a href="#" class="text-light"><small>Crear cuenta</small></a>
+            <div class="card-body">
+              <div class="table-responsive table-upgrade">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th class="text-center">Free</th>
+                      <th class="text-center">PRO</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Elements</td>
+                      <td class="text-center">100</td>
+                      <td class="text-center">200</td>
+                    </tr>
+                    <tr>
+                      <td>Plugins</td>
+                      <td class="text-center">4</td>
+                      <td class="text-center">16</td>
+                    </tr>
+                    <tr>
+                      <td>Example Pages</td>
+                      <td class="text-center">6</td>
+                      <td class="text-center">25</td>
+                    </tr>
+                    <tr>
+                      <td>DataTables, VectorMap, SweetAlert, Wizard,<br> jQueryValidation, FullCalendar etc...</td>
+                      <td class="text-center"><i class="ni ni-fat-remove text-danger"></i></td>
+                      <td class="text-center"><i class="ni ni-check-bold text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Mini Sidebar</td>
+                      <td class="text-center"><i class="ni ni-fat-remove text-danger"></i></td>
+                      <td class="text-center"><i class="ni ni-check-bold text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <td>Premium Support</td>
+                      <td class="text-center"><i class="ni ni-fat-remove text-danger"></i></td>
+                      <td class="text-center"><i class="ni ni-check-bold text-success"></i></td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td class="text-center">Free</td>
+                      <td class="text-center">Just $79</td>
+                    </tr>
+                    <tr>
+                      <td class="text-center"></td>
+                      <td class="text-center">
+                        <a href="#" class="btn btn-round btn-default disabled">Current Version</a>
+                      </td>
+                      <td class="text-center">
+                        <a target="_blank" href="https://www.creative-tim.com/product/argon-dashboard-pro?ref=ad-update-pro" class="btn btn-round btn-primary">Upgrade to PRO</a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-          </div-->
+          </div>
         </div>
       </div>
     </div>

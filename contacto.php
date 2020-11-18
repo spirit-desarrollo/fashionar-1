@@ -27,23 +27,6 @@
   <link rel="stylesheet" href="assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" type="text/css">
   <!-- Argon CSS -->
   <link rel="stylesheet" href="assets/css/argon.css" type="text/css">
-  <style>
-    .navbar-horizontal.navbar-transparent .navbar-nav .nav-link {
-    color: #d84d88;
-    /* color: rgba(255, 255, 255, .95); */
-}
-
-    .navbar-horizontal.navbar-transparent .navbar-nav .nav-link:hover,
-    .navbar-horizontal.navbar-transparent .navbar-nav .nav-link:focus
-    {
-        /*color: rgba(255, 255, 255, .65);*/
-        color:  #525f7f;
-    }
-    .navbar-horizontal.navbar-transparent .navbar-nav .nav-link.disabled
-    {
-        color: rgba(255, 255, 255, .25);
-    }
-  </style>
 </head>
 
 <body >
@@ -89,12 +72,12 @@
             </a>
           </li>  
                               <li class="nav-item">
-            <a href="planes.php" class="nav-link">
+            <a href="#" class="nav-link">
               <span class="nav-link-inner--text">Planes</span>
             </a>
           </li>  
                     <li class="nav-item">
-            <a href="contacto.php" class="nav-link">
+            <a href="#" class="nav-link">
               <span class="nav-link-inner--text">Contacto</span>
             </a>
           </li>      
@@ -143,79 +126,25 @@
   <div class="main-content" >
 
 
-    <div class="row" style="padding: 0;margin: 0;">
-      <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-             <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-3.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>        
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-4.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
+    
 
 
     <!-- Header -->
-    <div class="header py-6 pt-lg-9">
+    <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
 
       <div class="container">
 
           <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+              <h1 class="text-white">Welcome!</h1>
+              <p class="text-lead text-white">Use these awesome forms to login or create new account in your project for free.</p>
+            </div>
 
-          </div></div>
+
+
+            </div>
+          </div>
         </div>
       </div>
       <div class="separator separator-bottom separator-skew zindex-100">
@@ -229,7 +158,131 @@
     <div class="container mt--8 pb-5">
       <div class="row justify-content-center">
         <div class="col-lg-12 col-md-12">
-  
+                <div class="col-md-12">
+                <!--div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div-->
+
+                <div class="row">
+<div class="container-fluid mt--6">
+      <div class="row">
+        <div class="col">
+          <div class="card-wrapper">
+            <!-- Custom form validation -->
+            <div class="card">
+              <!-- Card header -->
+              <div class="card-header">
+                <h3 class="mb-0">Custom styles</h3>
+              </div>
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-8">
+                    <p class="mb-0">
+                      For custom form validation messages, you’ll need to add the novalidate boolean attribute to your <code>&lt;form&gt;</code>. This disables the browser default feedback tooltips, but still provides access to the form
+                      validation APIs in JavaScript.
+                      <br><br>
+                      When attempting to submit, you’ll see the<code>:invalid</code> and <code>:valid</code> styles applied to your form controls.
+                    </p>
+                  </div>
+                </div>
+                <hr>
+                <form class="needs-validation" novalidate="">
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                      <label class="form-control-label" for="validationCustom01">First name</label>
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required="">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label class="form-control-label" for="validationCustom02">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required="">
+                      <div class="valid-feedback">
+                        Looks good!
+                      </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                      <label class="form-control-label" for="validationCustomUsername">Username</label>
+                      <input type="text" class="form-control" id="validationCustomUsername" placeholder="Username" aria-describedby="inputGroupPrepend" required="">
+                      <div class="invalid-feedback">
+                        Please choose a username.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label class="form-control-label" for="validationCustom03">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" placeholder="City" required="">
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label class="form-control-label" for="validationCustom04">State</label>
+                      <input type="text" class="form-control" id="validationCustom04" placeholder="State" required="">
+                      <div class="invalid-feedback">
+                        Please provide a valid state.
+                      </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label class="form-control-label" for="validationCustom05">Zip</label>
+                      <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required="">
+                      <div class="invalid-feedback">
+                        Please provide a valid zip.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input class="custom-control-input" id="invalidCheck" type="checkbox" value="" required="">
+                      <label class="custom-control-label" for="invalidCheck">Agree to terms and conditions</label>
+                      <div class="invalid-feedback">
+                        You must agree before submitting.
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary" type="submit">Submit form</button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+    </div>
           <!--div class="card bg-secondary border-0 mb-0">
             <div class="card-header bg-transparent pb-5">
               <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión en tu cuenta</small></div>
@@ -301,7 +354,7 @@
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="nosotros.php" class="nav-link" target="_blank">Quiénes Somos</a>
+              <a href="#" class="nav-link" target="_blank">Quiénes Somos</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link" target="_blank">Blog</a>
