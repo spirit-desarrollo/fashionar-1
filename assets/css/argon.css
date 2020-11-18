@@ -499,7 +499,7 @@ h6,
 
     margin-bottom: .5rem;
 
-    color: #32325d;
+    color: #d84d88;
 }
 
 h1,
@@ -8726,7 +8726,7 @@ a.close.disabled
     position: absolute;
     z-index: 10;
     right: 15%;
-    bottom: 20px;
+    bottom: 150px;
     left: 15%;
 
     padding-top: 20px;
@@ -21132,7 +21132,8 @@ textarea[resize='horizontal']
     width: 100%;
 
     border: 0;
-    background-color: transparent;
+    background-color: transparent;*/
+     /*   background-color: #d84d8859;*/
     box-shadow: none;
 }
 .navbar-horizontal.navbar-transparent .navbar-brand
@@ -21152,12 +21153,14 @@ textarea[resize='horizontal']
 {
     .navbar-horizontal.navbar-transparent .navbar-nav .nav-link
     {
-        color: rgba(255, 255, 255, .95);
+        color: #d84d88;
+        /*color: rgba(255, 255, 255, .95);*/
     }
     .navbar-horizontal.navbar-transparent .navbar-nav .nav-link:hover,
     .navbar-horizontal.navbar-transparent .navbar-nav .nav-link:focus
     {
-        color: rgba(255, 255, 255, .65);
+        /*color: rgba(255, 255, 255, .65);*/
+        color:  #525f7f;
     }
     .navbar-horizontal.navbar-transparent .navbar-nav .nav-link.disabled
     {
@@ -24153,7 +24156,7 @@ button.bg-lighter:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    background: linear-gradient(87deg, #d84d8859  0, #d84d88a3 100%) !important;
 }
 
 .bg-gradient-secondary
@@ -24509,7 +24512,7 @@ button.section-darker:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(87deg, #5e72e4 0, #825ee4 100%) !important;
+    background: linear-gradient(87deg, #d84d8859  0, #d84d88a3 100%) !important;
 }
 
 .bg-gradient-secondary

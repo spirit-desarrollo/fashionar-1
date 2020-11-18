@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="assets/css/argon.css" type="text/css">
 </head>
 
-<body class="bg-default">
+<body >
   <!-- Navbar -->
   <nav id="navbar-main" class="navbar navbar-horizontal navbar-transparent navbar-main navbar-expand-lg navbar-light">
     <div class="container">
@@ -43,7 +43,7 @@
         <div class="navbar-collapse-header">
           <div class="row">
             <div class="col-6 collapse-brand">
-              <a href="#">
+              <a href="index.php">
                 <img src="assets/img/brand/blue.png">
               </a>
             </div>
@@ -57,11 +57,30 @@
         </div>
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="index.php" class="nav-link">
               <span class="nav-link-inner--text">Inicio</span>
             </a>
           </li>
-          
+           <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-link-inner--text">Quiénes somos</span>
+            </a>
+          </li> 
+                    <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-link-inner--text">FAQ</span>
+            </a>
+          </li>  
+                              <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-link-inner--text">Planes</span>
+            </a>
+          </li>  
+                    <li class="nav-item">
+            <a href="#" class="nav-link">
+              <span class="nav-link-inner--text">Contacto</span>
+            </a>
+          </li>      
         </ul>
         <hr class="d-lg-none" />
         <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -84,9 +103,17 @@
             </a>
           </li>
           <li class="nav-item d-none d-lg-block ml-lg-4">
-            <a href="#" target="_blank" class="btn btn-neutral btn-icon">
+            <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;">
               <span class="btn-inner--icon">
                 <i class="fas fa-key mr-2"></i>
+              </span>
+              <span class="nav-link-inner--text">Login</span>
+            </a>
+          </li>
+                    <li class="nav-item d-none d-lg-block ml-lg-4">
+            <a href="login.php" target="_blank" class="btn btn-neutral btn-icon" style="color: #8898aad9;">
+              <span class="btn-inner--icon">
+                <i class="fas fa-user mr-2"></i>
               </span>
               <span class="nav-link-inner--text">Registrate</span>
             </a>
@@ -96,25 +123,97 @@
     </div>
   </nav>
   <!-- Main content -->
-  <div class="main-content" style="background-image: url(assets/img/theme/background.login.jpg) !important;
-    background-size: cover;
-    background-position: top;">
+  <div class="main-content" >
+
+
+    <div class="row" style="padding: 0;margin: 0;">
+      <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h1>#Slide Title</h1>
+                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                </div>
+
+            </div>
+            <div class="carousel-item">
+
+                <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h1>#Slide Title</h1>
+                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                </div>
+
+            </div>
+             <div class="carousel-item">
+
+                <img class="d-block w-100"  src="assets/img/theme/banner-3.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h1>#Slide Title</h1>
+                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                </div>
+
+            </div>        
+            <div class="carousel-item">
+
+                <img class="d-block w-100"  src="assets/img/theme/banner-4.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                        <h1>#Slide Title</h1>
+                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
+                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                </div>
+
+            </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+
     <!-- Header -->
-    <div class="header py-7 py-lg-8 pt-lg-9">
+    <div class="header py-6 pt-lg-9">
+
       <div class="container">
 
+          <div class="header-body text-center mb-7">
+          <div class="row justify-content-center">
+
+          </div></div>
+        </div>
       </div>
       <div class="separator separator-bottom separator-skew zindex-100">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
           <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
         </svg>
       </div>
+
     </div>
     <!-- Page content -->
     <div class="container mt--8 pb-5">
       <div class="row justify-content-center">
-        <div class="col-lg-5 col-md-7">
-          <div class="card bg-secondary border-0 mb-0">
+        <div class="col-lg-12 col-md-12">
+  
+          <!--div class="card bg-secondary border-0 mb-0">
             <div class="card-header bg-transparent pb-5">
               <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión en tu cuenta</small></div>
               <div class="btn-wrapper text-center">
@@ -168,7 +267,7 @@
             <div class="col-6 text-right">
               <a href="#" class="text-light"><small>Crear cuenta</small></a>
             </div>
-          </div>
+          </div-->
         </div>
       </div>
     </div>
