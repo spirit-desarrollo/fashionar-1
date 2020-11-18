@@ -72,12 +72,12 @@
             </a>
           </li>  
                               <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="planes.php" class="nav-link">
               <span class="nav-link-inner--text">Planes</span>
             </a>
           </li>  
                     <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="contacto.php" class="nav-link">
               <span class="nav-link-inner--text">Contacto</span>
             </a>
           </li>      
