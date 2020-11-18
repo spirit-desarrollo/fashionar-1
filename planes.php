@@ -72,7 +72,7 @@
             </a>
           </li>  
                               <li class="nav-item">
-            <a href="planes.php" class="nav-link">
+            <a href="#" class="nav-link">
               <span class="nav-link-inner--text">Planes</span>
             </a>
           </li>  
@@ -126,79 +126,25 @@
   <div class="main-content" >
 
 
-    <div class="row" style="padding: 0;margin: 0;">
-      <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-             <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-3.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>        
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-4.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
+    
 
 
     <!-- Header -->
-    <div class="header py-6 pt-lg-9">
+    <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
 
       <div class="container">
 
           <div class="header-body text-center mb-7">
           <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 col-md-8 px-5">
+              <h1 class="text-white">Welcome!</h1>
+              <p class="text-lead text-white">Use these awesome forms to login or create new account in your project for free.</p>
+            </div>
 
-          </div></div>
+
+
+            </div>
+          </div>
         </div>
       </div>
       <div class="separator separator-bottom separator-skew zindex-100">
@@ -212,7 +158,114 @@
     <div class="container mt--8 pb-5">
       <div class="row justify-content-center">
         <div class="col-lg-12 col-md-12">
-  
+                <div class="col-md-12">
+                <!--div class="row">
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                    </div>
+                  </div>
+                </div-->
+
+                <div class="row">
+<div class="col-xl-4 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
+                      <span class="h2 font-weight-bold mb-0">$ 924</span>
+                      <p class="card-text mb-20" style="    margin: 30px 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                        <i class="ni ni-money-coins"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+<div class="col-xl-4 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
+                      <span class="h2 font-weight-bold mb-0">$ 924</span>
+                      <p class="card-text mb-20" style="    margin: 30px 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                        <i class="ni ni-money-coins"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+           <div class="col-xl-4 col-md-6">
+              <div class="card card-stats">
+                <!-- Card body -->
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Sales</h5>
+                      <span class="h2 font-weight-bold mb-0">$ 924</span>
+                      <p class="card-text mb-20" style="    margin: 30px 0;">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
+                        <i class="ni ni-money-coins"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+              </div>
           <!--div class="card bg-secondary border-0 mb-0">
             <div class="card-header bg-transparent pb-5">
               <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión en tu cuenta</small></div>
@@ -284,7 +337,7 @@
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="nosotros.php" class="nav-link" target="_blank">Quiénes Somos</a>
+              <a href="#" class="nav-link" target="_blank">Quiénes Somos</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link" target="_blank">Blog</a>

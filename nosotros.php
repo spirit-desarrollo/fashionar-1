@@ -126,72 +126,11 @@
   <div class="main-content" >
 
 
-    <div class="row" style="padding: 0;margin: 0;">
-      <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-             <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-3.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>        
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/banner-4.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
-                </div>
-
-            </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-
+    
 
 
     <!-- Header -->
-    <div class="header py-6 pt-lg-9">
+    <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
 
       <div class="container">
 
@@ -284,7 +223,7 @@
         <div class="col-xl-6">
           <ul class="nav nav-footer justify-content-center justify-content-xl-end">
             <li class="nav-item">
-              <a href="nosotros.php" class="nav-link" target="_blank">Quiénes Somos</a>
+              <a href="#" class="nav-link" target="_blank">Quiénes Somos</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link" target="_blank">Blog</a>
