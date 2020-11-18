@@ -211,8 +211,7 @@
                     <p class="mb-0">
                       For custom form validation messages, you’ll need to add the novalidate boolean attribute to your <code>&lt;form&gt;</code>. This disables the browser default feedback tooltips, but still provides access to the form
                       validation APIs in JavaScript.
-                      <br><br>
-                      When attempting to submit, you’ll see the<code>:invalid</code> and <code>:valid</code> styles applied to your form controls.
+
                     </p>
                   </div>
                 </div>

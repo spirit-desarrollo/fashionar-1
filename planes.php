@@ -253,7 +253,7 @@
       </div>
       <div class="d-flex justify-content-lg-center px-3 mt-5">
         <div class="row mt--5">
-        <div class="col-md-10 ml-auto mr-auto">
+        <div class="col-md-12 ml-auto mr-auto mt-10">
           <div class="card card-upgrade">
             <div class="card-header text-center border-bottom-0">
               <h4 class="card-title">Argon Dashboard PRO</h4>
