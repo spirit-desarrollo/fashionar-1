@@ -125,12 +125,12 @@
   <!-- Main content -->
 <div class="main-content">
     <!-- Header -->
-    <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-9">
+    <div class="header bg-gradient-primary py-7 py-lg-8 pt-lg-8">
       <div class="container">
-        <div class="header-body text-center mb-7">
+        <div class="header-body text-center mb-5">
           <div class="row justify-content-center">
             <div class="col-xl-5 col-lg-6 col-md-8 px-5">
-              <h1 class="text-white">Choose the best plan for your business</h1>
+              <h1 class="text-white">Elegí tu mejor plan</h1>
             </div>
           </div>
         </div>

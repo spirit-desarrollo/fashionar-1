@@ -156,40 +156,40 @@
             <div class="carousel-item active">
 
                 <img class="d-block w-100"  src="assets/img/theme/banner-1.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                <div class="carousel-caption d-none d-md-block card" style="background-color: #adb5bda1;">
+                        <h1>Bienvenida a FashionAR</h1>
+                        <p class="lead"> Tu sitio de asesoramiento de imagen en donde aprenderás a conocerte y a potenciar tu imagen, proyectando tu mejor versión. ¿Comenzamos?</p>
+                        <!--a href="#" class="btn btn-lg btn-primary">Learn More</a-->
                 </div>
 
             </div>
             <div class="carousel-item">
 
                 <img class="d-block w-100"  src="assets/img/theme/banner-2.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                <div class="carousel-caption d-none d-md-block card" style="background-color: #adb5bda1;">
+                        <h1>1. Cuerpo</h1>
+                        <p class="lead">Conocer tu cuerpo, aprender a vestirlo, apreciar las características singulares que te definen y que realzan quién sos, es el primer paso para ganar confianza y empoderamiento para reflejar tu belleza única.</p>
+                        <!--a href="#" class="btn btn-lg btn-primary">Learn More</a-->
                 </div>
 
             </div>
              <div class="carousel-item">
 
                 <img class="d-block w-100"  src="assets/img/theme/banner-3.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                <div class="carousel-caption d-none d-md-block card" style="background-color: #adb5bda1;">
+                        <h1>2. Estilo</h1>
+                        <p class="lead">Conocer y maximizar tu estilo, el sello personal de tu identidad, descubrir las prendas y accesorios que proyectan tu esencia y cuáles son tus puntos fuertes para proyectar tu interior es el segundo paso para lograr tu mejor versión.</p>
+                        <!--a href="#" class="btn btn-lg btn-primary">Learn More</a-->
                 </div>
 
             </div>        
             <div class="carousel-item">
 
                 <img class="d-block w-100"  src="assets/img/theme/banner-4.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                        <h1>#Slide Title</h1>
-                        <p class="lead">This text is super engaging and makes you want to click the button.</p>
-                        <a href="#" class="btn btn-lg btn-primary">Learn More</a>
+                <div class="carousel-caption d-none d-md-block card" style="background-color: #adb5bda1;">
+                        <h1>3. Ocasión de Uso </h1>
+                        <p class="lead">Conocer y diferenciar distintas combinaciones de Outfits para ocasiones y momentos especiales, es el tercer paso para brillar y ser recordada con tu estilo personal y belleza únicos.</p>
+                        <!--a href="#" class="btn btn-lg btn-primary">Learn More</a-->
                 </div>
 
             </div>
