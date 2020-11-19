@@ -43,6 +43,9 @@
     {
         color: rgba(255, 255, 255, .25);
     }
+    .timeline-one-side .timeline-content {
+    max-width: 80rem;
+}
   </style>
 </head>
 
@@ -237,7 +240,7 @@
 
 
     <!-- Header -->
-    <div class="header py-6 pt-lg-9">
+    <div class="header py-4 pt-lg-7">
 
       <div class="container">
 
@@ -259,62 +262,84 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 col-md-12">
   
-          <!--div class="card bg-secondary border-0 mb-0">
-            <div class="card-header bg-transparent pb-5">
-              <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión en tu cuenta</small></div>
-              <div class="btn-wrapper text-center">
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <span class="btn-inner--icon"><img src="assets/img/icons/common/facebook.png"></span>
-                  <span class="btn-inner--text">Facebook</span>
-                </a>
-                <a href="#" class="btn btn-neutral btn-icon">
-                  <span class="btn-inner--icon"><img src="assets/img/icons/common/google.svg"></span>
-                  <span class="btn-inner--text">Google</span>
-                </a>
+
+        </div>
+      </div>
+    </div>
+
+
+<div class="container-fluid mt--6">
+
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card bg-dark text-white border-0">
+            <img class="card-img" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image">
+            <div class="card-img-overlay d-flex align-items-center">
+              <div>
+                <h5 class="h2 card-title text-white mb-2">¡Qué es Fashionar?</h5>
+                <p class="card-text">Fashionar es un sistema inteligente de recomendaciones de outfits.</p>
+
               </div>
-            </div>
-            <div class="card-body px-lg-5 py-lg-5" >
-              <div class="text-center text-muted mb-4">
-                <small>Login</small>
-              </div>
-              <form role="form">
-                <div class="form-group mb-3">
-                  <div class="input-group input-group-merge input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-email-83"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Email" type="email">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group input-group-merge input-group-alternative">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text"><i class="ni ni-lock-circle-open"></i></span>
-                    </div>
-                    <input class="form-control" placeholder="Password" type="password">
-                  </div>
-                </div>
-                <div class="custom-control custom-control-alternative custom-checkbox">
-                  <input class="custom-control-input" id=" customCheckLogin" type="checkbox">
-                  <label class="custom-control-label" for=" customCheckLogin">
-                    <span class="text-muted">Recuérdame</span>
-                  </label>
-                </div>
-                <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Inicia sesión</button>
-                </div>
-              </form>
             </div>
           </div>
-          <div class="row mt-3">
-            <div class="col-6">
-              <a href="#" class="text-light"><small>Olvidé mi contraseña</small></a>
-            </div>
-            <div class="col-6 text-right">
-              <a href="#" class="text-light"><small>Crear cuenta</small></a>
-            </div>
-          </div-->
         </div>
+        <div class="col-lg-7 mt-20">
+<div class="card">
+            <div class="card-header bg-transparent">
+              <h3 class="mb-0">¿Cómo funciona?</h3>
+            </div>
+            <div class="card-body">
+              <div class="timeline timeline-one-side" data-timeline-content="axis" data-timeline-axis-style="dashed">
+                <div class="timeline-block">
+                  <span class="timeline-step badge-success">
+                    <i class="fa fa fa-key"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h5 class=" mt-3 mb-0">Te registrás</h5>
+                    <p class=" text-sm mt-1 mb-0">Vamos a ayudarte a potenciar tu imagen, vistiendo con propósito, para que puedas proyectar quién sos. Estamos convencidas que todos los cuerpos pueden verse y vestirse bien.</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step badge-danger">
+                    <i class="fa fa fa-female"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h5 class=" mt-3 mb-0">Identificás tu cuerpo</h5>
+                    <p class=" text-sm mt-1 mb-0">Mediante elementos gráficos y explicaciones conocerás que tipo de cuerpo tenés brindandote herramientas para destacar sus singularidades.</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step badge-info">
+                    <i class="fa fa fa-star"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h5 class=" mt-3 mb-0">Descubrís tu estilo</h5>
+                    <p class=" text-sm mt-1 mb-0">Tú estilo es el reflejo de tu interior, aprenderás a identificarlo por medio de test de estilo y otras herramientas.</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step badge-success">
+                    <i class="fa fa fa-heart"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h5 class=" mt-3 mb-0">Elegís la situación de uso</h5>
+                    <p class=" text-sm mt-1 mb-0">Podrás seleccionar diferentes situaciones para las cuales queres que el sistema te proponga looks, como por ejemplo una entrevista labora, ir a la oficina o una fiesta de noche.</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step badge-danger">
+                    <i class="fa fa fa-smile"></i>
+                  </span>
+                  <div class="timeline-content">
+                    <h5 class=" mt-3 mb-0">Te recomendamos outfits</h5>
+                    <p class=" text-sm mt-1 mb-0">Outfits son looks, el sistema te propondrá diferentes opciones explicándote el porque de la elección de las prendas y accesorios seleccionados, además de darte muchos consejos en cuanto al cuidado, combinaciones, nuevos materiales sutentables, creación de un guardarropas inteligente, etc. Además descubrirás nuevas marcas!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
