@@ -273,10 +273,10 @@
         <div class="row">
         <div class="col-lg-3">
           <div class="card bg-dark text-white border-0">
-            <img class="card-img" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image">
+            <img class="card-img" src="assets/img/theme/card.background.jpg" alt="Card image">
             <div class="card-img-overlay d-flex align-items-center">
               <div>
-                <h1 class="h2 card-title text-white mb-2">¡Qué es Fashionar?</h1>
+                <h1 class="h2 card-title text-white mb-2">¡Qué es FashionAR?</h1>
                 <p class="card-text">Fashionar es un sistema inteligente de recomendaciones de outfits.</p>
 
               </div>
