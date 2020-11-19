@@ -268,15 +268,15 @@
     </div>
 
 
-<div class="container-fluid mt--6">
+    <div class="container-fluid mt--6">
 
-      <div class="row">
+        <div class="row">
         <div class="col-lg-3">
           <div class="card bg-dark text-white border-0">
             <img class="card-img" src="assets/img/theme/img-1-1000x600.jpg" alt="Card image">
             <div class="card-img-overlay d-flex align-items-center">
               <div>
-                <h5 class="h2 card-title text-white mb-2">¡Qué es Fashionar?</h5>
+                <h1 class="h2 card-title text-white mb-2">¡Qué es Fashionar?</h1>
                 <p class="card-text">Fashionar es un sistema inteligente de recomendaciones de outfits.</p>
 
               </div>
@@ -284,9 +284,9 @@
           </div>
         </div>
         <div class="col-lg-7 mt-20">
-<div class="card">
+          <div class="card">
             <div class="card-header bg-transparent">
-              <h3 class="mb-0">¿Cómo funciona?</h3>
+              <h1 class="mb-0">¿Cómo funciona?</h1>
             </div>
             <div class="card-body">
               <div class="timeline timeline-one-side" data-timeline-content="axis" data-timeline-axis-style="dashed">
@@ -295,7 +295,7 @@
                     <i class="fa fa fa-key"></i>
                   </span>
                   <div class="timeline-content">
-                    <h5 class=" mt-3 mb-0">Te registrás</h5>
+                    <h2 class=" mt-3 mb-0">Te registrás ¡si, es gratis!</h2>
                     <p class=" text-sm mt-1 mb-0">Vamos a ayudarte a potenciar tu imagen, vistiendo con propósito, para que puedas proyectar quién sos. Estamos convencidas que todos los cuerpos pueden verse y vestirse bien.</p>
                   </div>
                 </div>
@@ -304,7 +304,7 @@
                     <i class="fa fa fa-female"></i>
                   </span>
                   <div class="timeline-content">
-                    <h5 class=" mt-3 mb-0">Identificás tu cuerpo</h5>
+                    <h2 class=" mt-3 mb-0">Identificás tu cuerpo</h2>
                     <p class=" text-sm mt-1 mb-0">Mediante elementos gráficos y explicaciones conocerás que tipo de cuerpo tenés brindandote herramientas para destacar sus singularidades.</p>
                   </div>
                 </div>
@@ -313,7 +313,7 @@
                     <i class="fa fa fa-star"></i>
                   </span>
                   <div class="timeline-content">
-                    <h5 class=" mt-3 mb-0">Descubrís tu estilo</h5>
+                    <h2 class=" mt-3 mb-0">Descubrís tu estilo</h2>
                     <p class=" text-sm mt-1 mb-0">Tú estilo es el reflejo de tu interior, aprenderás a identificarlo por medio de test de estilo y otras herramientas.</p>
                   </div>
                 </div>
@@ -322,8 +322,8 @@
                     <i class="fa fa fa-heart"></i>
                   </span>
                   <div class="timeline-content">
-                    <h5 class=" mt-3 mb-0">Elegís la situación de uso</h5>
-                    <p class=" text-sm mt-1 mb-0">Podrás seleccionar diferentes situaciones para las cuales queres que el sistema te proponga looks, como por ejemplo una entrevista labora, ir a la oficina o una fiesta de noche.</p>
+                    <h2 class=" mt-3 mb-0">Elegís la situación de uso</h2>
+                    <p class=" text-sm mt-1 mb-0">Podrás seleccionar diferentes situaciones para las cuales queres que el sistema te proponga looks, como por ejemplo una entrevista laboral, ir a la oficina o una fiesta de noche.</p>
                   </div>
                 </div>
                 <div class="timeline-block">
@@ -331,7 +331,7 @@
                     <i class="fa fa fa-smile"></i>
                   </span>
                   <div class="timeline-content">
-                    <h5 class=" mt-3 mb-0">Te recomendamos outfits</h5>
+                    <h2 class=" mt-3 mb-0">Te recomendamos outfits</h2>
                     <p class=" text-sm mt-1 mb-0">Outfits son looks, el sistema te propondrá diferentes opciones explicándote el porque de la elección de las prendas y accesorios seleccionados, además de darte muchos consejos en cuanto al cuidado, combinaciones, nuevos materiales sutentables, creación de un guardarropas inteligente, etc. Además descubrirás nuevas marcas!</p>
                   </div>
                 </div>
@@ -340,42 +340,49 @@
           </div>
         </div>
 
-      </div>
+      <!--/div-->
     </div>
-
 
     <div class="container">
-          <div class="row" style="padding: 0;margin: 0;">
-      <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
-        <div id="carouselExample" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExample" data-slide-to="1"></li>
-
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-
-                <img class="d-block w-100"  src="assets/img/theme/marcas.jpg" alt="First slide">
-
-            </div>
-            <div class="carousel-item">
-
-                <img class="d-block w-100"  src="assets/img/theme/marcas.jpg" alt="First slide">
-
-
-            </div>
-          <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        <div class="row" style="">
+          <div class="col-md-12 mx-auto text-center" style="margin: 50px 0 30px 0;">
+            <h2 style="color: #8898aa;">Tenés una marca de indumentaria y/o accesorios? ¡Sumáte! no importa si sos un emprendedor o una gran empresa comercial, chequeá los <a href="#">planes</a>, estamos seguros que hay uno para tu necesidad. ¡Nos encantará trabajar juntos! Las siguientes empresas ya nos eligieron:</h2>
+          </div>
         </div>
-      </div>
     </div>
+
+    <div class="container">
+        <div class="row" style="padding: 0;margin: 0;">
+          <div class="col-md-12 mx-auto" style="padding: 0;margin: 0;">
+            <div id="carouselExample" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <img class="d-block w-100"  src="assets/img/theme/marcas.jpg" alt="First slide">
+
+                </div>
+                <div class="carousel-item">
+
+                    <img class="d-block w-100"  src="assets/img/theme/marcas.jpg" alt="First slide">
+
+
+                </div>
+              <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
   <!-- Footer -->
