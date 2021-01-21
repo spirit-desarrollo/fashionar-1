@@ -158,7 +158,7 @@
             <div class="card-img-overlay d-flex align-items-center">
               <div>
                 <h1 class="h2 card-title text-white mb-2">¿Qué es FashionAR?</h1>
-                <p class="card-text">Fashionar es un sistema inteligente de recomendaciones de outfits.</p>
+                <p class="card-text">Fashionar es un sistema inteligente de recomendaciones de outfits creado para ayudarte a potenciar tu imagen</p>
 
               </div>
             </div>

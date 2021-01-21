@@ -64,7 +64,7 @@
         <div class="col-lg-5 col-md-7">
           <div class="card bg-secondary border-0 mb-0">
             <div class="card-header bg-transparent pb-5">
-              <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión en tu cuenta</small></div>
+              <div class="text-muted text-center mt-2 mb-3"><small>Inicia sesión con tu cuenta</small></div>
               <div class="btn-wrapper text-center">
                 <a href="#" class="btn btn-neutral btn-icon">
                   <span class="btn-inner--icon"><img src="assets/img/icons/common/facebook.png"></span>
@@ -78,7 +78,7 @@
             </div>
             <div class="card-body px-lg-5 py-lg-5" >
               <div class="text-center text-muted mb-4">
-                <small>Login</small>
+                <small>Ingresá</small>
               </div>
               <form role="form">
                 <div class="form-group mb-3">
@@ -104,7 +104,7 @@
                   </label>
                 </div>
                 <div class="text-center">
-                  <button type="button" class="btn btn-primary my-4">Inicia sesión</button>
+                  <button type="button" class="btn btn-primary my-4">Iniciar sesión</button>
                 </div>
               </form>
             </div>

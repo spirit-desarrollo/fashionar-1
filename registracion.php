@@ -79,7 +79,7 @@
             </div>
             <div class="card-body px-lg-5 py-lg-5" >
               <div class="text-center text-muted mb-4">
-                <small>O Registr&aacute;te con tus credenciales</small>
+                <small>O Cre&aacute; tu cuenta</small>
               </div>
               <div class="card-body">
                 <form>
@@ -111,7 +111,7 @@
                           <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-user"></i></span>
                           </div>
-                          <input class="form-control" placeholder="Apodo" type="text">
+                          <input class="form-control" placeholder="Apodo (opcional)" type="text">
                         </div>
                       </div>
                     </div>                  
@@ -126,27 +126,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <div class="input-group input-group-merge">
-                          <input class="form-control" placeholder="Provincia" type="text">
-                          <div class="input-group-append">
-                            <span class="input-group-text"><i class="fas fa-map-marker"></i></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <div class="input-group input-group-merge">
-                          <input class="form-control" placeholder="Pa&iacute;s" type="text">
-                          <div class="input-group-append">
-                            <span class="input-group-text"><i class="fas fa-map-marker"></i></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>                    
+                  <div class="row">                 
                     <div class="col-md-6">
                       <div class="form-group">
                         <div class="input-group input-group-merge">
