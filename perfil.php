@@ -44,7 +44,7 @@
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hola Noe</h1>
+            <h1 class="display-2 text-white">Hola Noe!</h1>
             <p class="text-white mt-0 mb-5">This is your profile page. You can see the progress you've made with your work and manage your projects or assigned tasks</p>
             <!--a href="#!" class="btn btn-neutral">Edit profile</a-->
           </div>
@@ -121,20 +121,23 @@
               </div>
             </div-->
             <div class="card-body">
-              <form>
+              <form class="needs-validation" novalidate="">
                 <h6 class="heading-small text-muted mb-4">Perfil</h6>
                 <div class="pl-lg-4">
                   <div class="row">
                     <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label" for="input-username">Nombre</label>
-                        <input type="text" id="input-username" class="form-control" placeholder="Nombre" value="lucky.jesse">
+                        <input type="text" id="input-username" class="form-control" placeholder="Nombre" value="lucky.jesse" required>
+                                              <div class="valid-feedback">
+                        Looks good!
+                      </div>
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <label class="form-control-label" for="input-username">Apellido</label>
-                        <input type="text" id="input-username" class="form-control" placeholder="Apellido" value="lucky.jesse">
+                        <label class="form-control-label" for="input-apellido">Apellido</label>
+                        <input type="text" id="input-apellido" class="form-control" placeholder="Apellido" value="lucky.jesse">
                       </div>
                     </div>                                           
                   </div>
@@ -147,8 +150,8 @@
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group">
-                        <label class="form-control-label" for="input-username">Apodo (opcional)</label>
-                        <input type="text" id="input-username" class="form-control" placeholder="Apellido" value="lucky.jesse">
+                        <label class="form-control-label" for="input-apodo">Apodo (opcional)</label>
+                        <input type="text" id="input-apodo" class="form-control" placeholder="Apodo" value="lucky.jesse">
                       </div>
                     </div>  
                   </div>
@@ -161,7 +164,8 @@
                     <div class="col-lg-4">
                       <div class="form-group">
                         <label class="form-control-label" for="input-address">Fecha de nacimiento</label>
-                        <input id="input-fecha" class="form-control" placeholder="Home Address" value="03/08/1985" type="text">
+                        <!--input id="input-fecha" class="form-control" placeholder="Home Address" value="03/08/1985" type="text"-->
+                        <input class="form-control" type="date" value="2018-11-23" id="input-fecha">
                       </div>
                     </div>
                   </div>
@@ -169,13 +173,23 @@
                     <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label" for="input-city">País de residencia</label>
-                        <input type="text" id="input-city" class="form-control" placeholder="City" value="New York">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                              <option>Argentina</option>
+                              <option>Brasil</option>
+                              <option>Chile</option>
+                              <option>Uruguay</option>
+                            </select>
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label" for="input-country">Provincia/ Región /estado</label>
-                        <input type="text" id="input-country" class="form-control" placeholder="Country" value="United States">
+                            <select class="form-control" id="provincia">
+                              <option>Capital Federal</option>
+                              <option>Buenos Aires</option>
+                              <option>Chaco</option>
+                              <option>Formosa</option>
+                            </select>
                       </div>
                     </div>
                   </div>
@@ -185,29 +199,38 @@
                 <h6 class="heading-small text-muted mb-4">Acerca de mí</h6>
                 <div class="pl-lg-4">
                   <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label" for="input-country">Ocupación/profesión</label>
-                        <input type="text" id="input-country" class="form-control" placeholder="Country" value="United States">
+
+                            <select class="form-control" id="ocupacion">
+                              <option>Estudiante</option>
+                              <option>Empleado</option>
+                              <option>Profesional</option>
+                            </select>
                       </div>
                     </div>  
                   </div>
                   <div class="row">                                                   
-                    <div class="col-md-12">
+                    <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label">Objetivo de imagen</label>
-                        <textarea rows="4" class="form-control" placeholder="A few words about you ...">A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea>
+                         <select class="form-control" id="ocupacion">
+                          <option>Potenciar mi imagen personal</option>
+                          <option>Potenciar mi imagen profesional</option>
+                        </select>
                       </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                          <label class="form-control-label">Prendas que me gustaría aprender a usar</label>
+                               <select class="form-control" id="prendas">
+                                <option>Pañuelos/pashminas</option>
+                                <option>Monoprendas</option>
+                              </select>
+                        </div>
                     </div>
                   </div> 
-                  <div class="row">                                                   
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label class="form-control-label">Prendas que me gustaría aprender a usar</label>
-                        <textarea rows="4" class="form-control" placeholder="A few words about you ...">A beautiful Dashboard for Bootstrap 4. It is Free and Open Source.</textarea>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <hr class="my-4" />
                 <h6 class="heading-small text-muted mb-4">Novedades</h6>
@@ -228,7 +251,7 @@
                 <div class="col-md-12">
                   <div class="form-group">
                     <div class="text-right">
-                      <button type="button" class="btn btn-primary mt-4">Guardar</button>
+                      <button type="submit" class="btn btn-primary mt-4" data-toggle="modal" data-target="#exampleModal">Guardar</button>
                     </div>
                 </div>
             </div>
@@ -263,6 +286,27 @@
       </footer>
     </div>
 
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Datos Personales</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Su información fue guardada con éxito!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Aceptar</button>
+      </div>
+    </div>
+  </div>
+</div>
   
   <!-- Argon Scripts -->
   <!-- Core -->
