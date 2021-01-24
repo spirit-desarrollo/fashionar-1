@@ -1,10 +1,11 @@
   <!-- Sidenav -->
-  <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main">
+  <nav class="sidenav navbar navbar-vertical  fixed-left  navbar-expand-xs navbar-light bg-white" id="sidenav-main" style="background-color: #f5f5f6e8 !important;">
     <div class="scrollbar-inner">
       <!-- Brand -->
-      <div class="sidenav-header  align-items-center">
+      <div class="sidenav-header  align-items-center" style="text-align: center;">
+      
         <a class="navbar-brand" href="javascript:void(0)">
-          <img src="assets/img/brand/white.png" class="navbar-brand-img" alt="...">
+          <img src="assets/img/brand/logo.sidebar.png" class="navbar-brand-img" alt="...">
         </a>
       </div>
       <div class="navbar-inner">
