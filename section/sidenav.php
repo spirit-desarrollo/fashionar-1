@@ -14,15 +14,15 @@
           <!-- Nav items -->
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="profile.html">
+              <a class="nav-link active" href="perfil.php">
                 <i class="ni ni-single-02 text-yellow"></i>
                 <span class="nav-link-text">Perfil</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                <i class="ni ni-bullet-list-67 text-default"></i>
-                <span class="nav-link-text">Otra opción</span>
+              <a class="nav-link" href="cuerpo.php">
+                <i class="ni ni-diamond text-default"></i>
+                <span class="nav-link-text">Test Estilo</span>
               </a>
             </li>
           </ul>

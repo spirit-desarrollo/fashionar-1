@@ -3121,11 +3121,11 @@ fieldset:disabled a.btn {
 .btn-link {
     font-weight: 400;
     text-decoration: none;
-    color: #5e72e4;
+    color: #E91E63;
 }
 .btn-link:hover {
     text-decoration: none;
-    color: #233dd2;
+    color: #9e9e9e;
 }
 .btn-link.focus,
 .btn-link:focus {
@@ -6280,7 +6280,7 @@ a.close.disabled {
     vertical-align: text-top !important;
 }
 .bg-primary {
-    background-color: #d84d88 !important;
+    background-color: #e9abc8  !important;
 }
 a.bg-primary:focus,
 a.bg-primary:hover,
@@ -17290,10 +17290,10 @@ button.bg-lighter:hover {
     background: linear-gradient(87deg, #adb5bd 0, #adaebd 100%) !important;
 }
 .bg-gradient-dark {
-    background: linear-gradient(87deg, #212529 0, #212229 100%) !important;
+    background: linear-gradient(87deg, #df78a5a3 0, #df78a5 100%) !important;
 }
 .bg-gradient-default {
-    background: linear-gradient(87deg, #ff54c2 0, #df2fc9a3 100%) !important;
+    background: linear-gradient(87deg, #df78a5a8 0, #df78a5 100%) !important;
 }
 .bg-gradient-white {
     background: linear-gradient(87deg, #fff 0, #fff 100%) !important;
@@ -17527,7 +17527,7 @@ button.section-darker:hover {
     background: linear-gradient(87deg, #212529 0, #212229 100%) !important;
 }
 .bg-gradient-default {
-    background: linear-gradient(87deg, #ff54c2 0, #df2fc9a3 100%) !important;
+    background: linear-gradient(87deg, #df78a5a8 0, #df78a5 100%) !important;
 }
 .bg-gradient-white {
     background: linear-gradient(87deg, #fff 0, #fff 100%) !important;
