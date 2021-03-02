@@ -66,8 +66,8 @@
             <div class="card-body">
               <h5 class="h4 card-title mb-0">Cl&aacute;sico</h5>
               
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia discreta, elegante.Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
+              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia discreta, elegante. Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
+              <a href="cuerpo.reloj.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
             </div>
           </div>
         </div>
@@ -78,8 +78,8 @@
             <div class="card-body">
               <h5 class="h4 card-title mb-0">Natural</h5>
               
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia saludable, sencilla, juvenil,. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
+              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia saludable, sencilla, juvenil. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
+              <a href="cuerpo.reloj.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
             </div>
           </div>
         </div>
@@ -90,8 +90,8 @@
             <div class="card-body">
               <h5 class="h4 card-title mb-0">Ecléctico</h5>
               
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia divertida, ocurrente, original,. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
+              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia divertida, ocurrente, original. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
+              <a href="cuerpo.reloj.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@
               <h5 class="h4 card-title mb-0">Sexy</h5>
               
               <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia llamativa, seductora, avasallante. Predominio de prendas y accesorios que revelan el cuerpo. Transmite sensualidad, osadia, atracción.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
+              <a href="cuerpo.reloj.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
             </div>
           </div>
         </div>       
@@ -115,7 +115,7 @@
               <h5 class="h4 card-title mb-0">Romántico</h5>
               
               <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia cálidad, apacible, soñadora. Predominio de prendas y accesorios delicados y unn porco recargados. Transmite suavidad, frescura, inocencia.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
+              <a href="cuerpo.reloj.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
             </div>
           </div>
         </div>

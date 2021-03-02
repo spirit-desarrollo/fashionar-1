@@ -53,85 +53,567 @@
     </div>
     <!-- Page content -->
     <div class="container-fluid mt--8">
-<div class="row">
-    <div class="col-lg-1">
-          <!-- Image-Text card -->
-          
-          
-        </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Cl&aacute;sico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia discreta, elegante.Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <h4 class="mb-0">Clásico</h4>
+                  </div>
+                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Apariencia discreta, elegante. Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
+                        </div>
+                      </div>
+                      <div class="row mt-1">
+                        <div class="col-md-12 mt-4 mb-2">
+                          <p>Ocación de uso:</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush list my--3">
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Todo el día
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Deportiva
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Salida día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Fiestas día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>                        
+    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <h4 class="mb-0">Natural</h4>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Apariencia saludable, sencilla, juvenil. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
+                        </div>
+                      </div>
+                      <div class="row mt-1">
+                        <div class="col-md-12 mt-4 mb-2">
+                          <p>Ocación de uso:</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush list my--3">
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Todo el día
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Deportiva
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Salida día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Fiestas día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>                        
+    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                      <h4 class="mb-0">Ecléctico</h4>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Apariencia divertida, ocurrente, original. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
+                        </div>
+                      </div>
+                      <div class="row mt-1">
+                        <div class="col-md-12 mt-4 mb-2">
+                          <p>Ocación de uso:</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush list my--3">
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Todo el día
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Deportiva
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Salida día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Fiestas día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>                        
+    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      <h4 class="mb-0">Sexy</h4>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Apariencia llamativa, seductora, avasallante. Predominio de prendas y accesorios que revelan el cuerpo. Transmite sensualidad, osadia, atracción.</p>
+                        </div>
+                      </div>
+                      <div class="row mt-1">
+                        <div class="col-md-12 mt-4 mb-2">
+                          <p>Ocación de uso:</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush list my--3">
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                                                                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>                        
+    
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFive" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      <h4 class="mb-0">Romántico</h4>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+                        </div>
+                        <div class="col-md-6">
+                          <p>Apariencia cálidad, apacible, soñadora. Predominio de prendas y accesorios delicados y unn porco recargados. Transmite suavidad, frescura, inocencia.</p>
+                        </div>
+                      </div>
+                      <div class="row mt-1">
+                        <div class="col-md-12 mt-4 mb-2">
+                          <p>Ocación de uso:</p>
+                        </div>
+                      </div>
+                      <ul class="list-group list-group-flush list my--3">
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Oficina / Entrevista laboral
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Todo el día
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Deportiva
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Salida día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="list-group-item px-0">     
+                          <div class="row align-items-center">
+                            <div class="col-auto">
+                              <a href="#" class="avatar rounded-circle">
+                                  <img alt="Image placeholder" src="assets/img/theme/clasico.jpg">
+                              </a>
+                            </div>
+                            <div class="col ml--2">
+                                <h4 class="mb-0">
+                                    Fiestas día / noche
+                                </h4>
+                            </div>
+                            <div class="col-auto">
+                              <button type="button" class="btn btn-sm btn-primary">Seleccionar</button>
+                            </div>
+                          </div>
+                        </li>                        
+    
+                      </ul>
+                    </div>
+                  </div>
+                </div>                                                
+              </div>      
             </div>
+            <div class="col-md-2"></div>
           </div>
-        </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Natural</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia saludable, sencilla, juvenil,. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Ecléctico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia divertida, ocurrente, original,. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-         <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Sexy</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia llamativa, seductora, avasallante. Predominio de prendas y accesorios que revelan el cuerpo. Transmite sensualidad, osadia, atracción.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>       
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Romántico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia cálidad, apacible, soñadora. Predominio de prendas y accesorios delicados y unn porco recargados. Transmite suavidad, frescura, inocencia.</p>
-              <a href="#!" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-
-
-<div class="col-lg-1">
-          <!-- Image-Text card -->
-
-          
-        </div>
-
-
-
-
-        
-        
+        </div>        
       </div>
       <!-- Footer -->
       <footer class="py-5" id="footer-main">

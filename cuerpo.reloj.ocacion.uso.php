@@ -37,15 +37,15 @@
 
   <?php include("section/menu-dashboard.php"); ?>
     
-<div class="header pb-7 d-flex align-items-center" style="min-height: 350px;background-image: url(assets/img/theme/rectangulo.jpg);background-size: cover;background-position: center top;">
+<div class="header pb-7 d-flex align-items-center" style="min-height: 350px;background-image: url(assets/img/theme/reloj.jpg);background-size: cover;background-position: center top;">
       <!-- Mask -->
       <span class="mask bg-gradient-default opacity-8"></span>
       <!-- Header container -->
       <div class="container-fluid d-flex align-items-center">
 <div class="row">
           <div class="col-lg-12 col-md-12 ">
-            <h1 class="display-2 text-white">Descubrí tu estilo</h1>
-            <p class="text-white mt-0 mb-5">El estilo esta ligado al estilo de vida y debe reflejar nuestro interior en nuestro vestir. Una vez que veamos en el espejo el reflejode lo que sentimos somos interiormente habremos encontrado nuestro estilo. La construcción de un estilo es la afirmación de una identidad.</p>
+            <h1 class="display-2 text-white">Ocación de uso</h1>
+            <p class="text-white mt-0 mb-5">¿Para que ocación buscas tu asesoramiento?</p>
             <!--a href="#!" class="btn btn-neutral">Edit profile</a-->
           </div>
         </div>
@@ -53,85 +53,121 @@
     </div>
     <!-- Page content -->
     <div class="container-fluid mt--8">
-<div class="row">
-    <div class="col-lg-1">
+      <div class="row">
+        <div class="col-lg-2">
           <!-- Image-Text card -->
           
           
         </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
+        <div class="col-lg-4">
             <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+            
             <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Cl&aacute;sico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia discreta, elegante.Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
+            <div class="card">
+              <!-- Card header -->
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <!-- Title -->
+                    <h5 class="h3 mb-0">Oficina / Entrevista laboral</h5>
+                  </div>
+                  <div class="col-4 text-right">
+                    <a href="#!" class="btn btn-sm btn-neutral">Guardar</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card image -->
+              <!-- List group -->
+              <!-- Card body -->
+              <img class="card-img-bottom" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
             </div>
-          </div>
+
         </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Natural</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia saludable, sencilla, juvenil,. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
+        <div class="col-lg-4">
+            <div class="card">
+              <!-- Card header -->
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <!-- Title -->
+                    <h5 class="h3 mb-0">Oficina / Entrevista laboral</h5>
+                  </div>
+                  <div class="col-4 text-right">
+                    <a href="#!" class="btn btn-sm btn-neutral">Guardar</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card image -->
+              <!-- List group -->
+              <!-- Card body -->
+              <img class="card-img-bottom" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
             </div>
-          </div>
         </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Ecléctico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia divertida, ocurrente, original,. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
+        <div class="col-lg-2">
         </div>
-         <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Sexy</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia llamativa, seductora, avasallante. Predominio de prendas y accesorios que revelan el cuerpo. Transmite sensualidad, osadia, atracción.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
+
+        <div class="col-lg-4">
+            <div class="card">
+              <!-- Card header -->
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <!-- Title -->
+                    <h5 class="h3 mb-0">Oficina / Entrevista laboral</h5>
+                  </div>
+                  <div class="col-4 text-right">
+                    <a href="#!" class="btn btn-sm btn-neutral">Guardar</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card image -->
+              <!-- List group -->
+              <!-- Card body -->
+              <img class="card-img-bottom" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
             </div>
-          </div>
         </div>       
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Romántico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia cálidad, apacible, soñadora. Predominio de prendas y accesorios delicados y unn porco recargados. Transmite suavidad, frescura, inocencia.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
+        <div class="col-lg-4">
+            <div class="card">
+              <!-- Card header -->
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <!-- Title -->
+                    <h5 class="h3 mb-0">Oficina / Entrevista laboral</h5>
+                  </div>
+                  <div class="col-4 text-right">
+                    <a href="#!" class="btn btn-sm btn-neutral">Guardar</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card image -->
+              <!-- List group -->
+              <!-- Card body -->
+              <img class="card-img-bottom" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+            </div>        
         </div>
 
-
-<div class="col-lg-1">
-          <!-- Image-Text card -->
-
-          
+<div class="col-lg-4">
+            <div class="card">
+              <!-- Card header -->
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col-8">
+                    <!-- Title -->
+                    <h5 class="h3 mb-0">Oficina / Entrevista laboral</h5>
+                  </div>
+                  <div class="col-4 text-right">
+                    <a href="#!" class="btn btn-sm btn-neutral">Guardar</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card image -->
+              <!-- List group -->
+              <!-- Card body -->
+              <img class="card-img-bottom" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
+            </div>        
         </div>
 
-
-
-
-        
-        
       </div>
       <!-- Footer -->
       <footer class="py-5" id="footer-main">

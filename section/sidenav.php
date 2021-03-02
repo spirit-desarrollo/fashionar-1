@@ -22,7 +22,7 @@
             <li class="nav-item">
               <a class="nav-link" href="cuerpo.php">
                 <i class="ni ni-diamond text-default"></i>
-                <span class="nav-link-text">Test Estilo</span>
+                <span class="nav-link-text">Mi asesoramiento</span>
               </a>
             </li>
           </ul>
