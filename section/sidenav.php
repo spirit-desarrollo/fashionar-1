@@ -42,8 +42,14 @@
           <ul class="navbar-nav mb-md-3">
             <li class="nav-item">
               <a class="nav-link active active-pro" href="#">
-                <i class="ni ni-send text-dark"></i>
-                <span class="nav-link-text">Upgrade to PRO</span>
+                <i class="ni ni-support-16 text-orange"></i>
+                <span class="nav-link-text">Soporte</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active active-pro" href="#">
+                <i class="ni ni-user-run text-yellow"></i>
+                <span class="nav-link-text">Cerrar sesión</span>
               </a>
             </li>
           </ul>

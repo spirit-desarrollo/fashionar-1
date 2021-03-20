@@ -204,28 +204,28 @@
               </a>
               <div class="dropdown-menu  dropdown-menu-right ">
                 <div class="dropdown-header noti-title">
-                  <h6 class="text-overflow m-0">Welcome!</h6>
+                  <h6 class="text-overflow m-0">Bienvenida!</h6>
                 </div>
-                <a href="#!" class="dropdown-item">
+                <a href="perfil.php" class="dropdown-item">
                   <i class="ni ni-single-02"></i>
-                  <span>My profile</span>
+                  <span>Mi perfil</span>
                 </a>
-                <a href="#!" class="dropdown-item">
-                  <i class="ni ni-settings-gear-65"></i>
-                  <span>Settings</span>
+                <a href="cuerpo.php" class="dropdown-item">
+                  <i class="ni ni-diamond"></i>
+                  <span>Mi asesoramiento</span>
                 </a>
-                <a href="#!" class="dropdown-item">
-                  <i class="ni ni-calendar-grid-58"></i>
-                  <span>Activity</span>
+                <a href="ocacion.uso.php" class="dropdown-item">
+                  <i class="ni ni-active-40"></i>
+                  <span>Ocación de uso</span>
                 </a>
                 <a href="#!" class="dropdown-item">
                   <i class="ni ni-support-16"></i>
-                  <span>Support</span>
+                  <span>Soporte</span>
                 </a>
                 <div class="dropdown-divider"></div>
                 <a href="#!" class="dropdown-item">
                   <i class="ni ni-user-run"></i>
-                  <span>Logout</span>
+                  <span>Cerrar sesión</span>
                 </a>
               </div>
             </li>
