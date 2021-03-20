@@ -53,88 +53,52 @@
     </div>
     <!-- Page content -->
     <div class="container-fluid mt--8">
-<div class="row">
-    <div class="col-lg-1">
-          <!-- Image-Text card -->
-          
-          
+  <div class="row mb-10">
+    <div class="card-group">
+      <div class="card">
+        <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><input type="radio" aria-label="Radio button for following text input" value="1">  Cl&aacute;sico </h4>
+          <p class="card-text">Apariencia discreta, elegante.Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
         </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Cl&aacute;sico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia discreta, elegante.Predominio de prendas y accesorios sobrios y de calidad. Transmite formalidad, autoridad, profesionalismo.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Natural</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia saludable, sencilla, juvenil,. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Ecléctico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia divertida, ocurrente, original,. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-         <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Sexy</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia llamativa, seductora, avasallante. Predominio de prendas y accesorios que revelan el cuerpo. Transmite sensualidad, osadia, atracción.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>       
-        <div class="col-lg-2"><div class="card" id="clasico"><a href="#" >
-            <!-- Card image -->
-            <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Image placeholder" style=""></a>
-            <!-- Card body -->
-            <div class="card-body">
-              <h5 class="h4 card-title mb-0">Romántico</h5>
-              
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Apariencia cálidad, apacible, soñadora. Predominio de prendas y accesorios delicados y unn porco recargados. Transmite suavidad, frescura, inocencia.</p>
-              <a href="cuerpo.rectangulo.ocacion.uso.php" class="btn btn-link px-0">Seleccionar</a>
-            </div>
-          </div>
-        </div>
-
-
-<div class="col-lg-1">
-          <!-- Image-Text card -->
-
-          
-        </div>
-
-
-
-
-        
-        
       </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><input type="radio" aria-label="Radio button for following text input" value="2"> Natural</h4>
+          <p class="card-text">Apariencia saludable, sencilla, juvenil,. Predominio de prendas y accesorios cómodos y funcionales. Transmite cercanía, serenidad, adaptabilidad.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><input type="radio" aria-label="Radio button for following text input" value="3"> Ecléctico</h4>
+          <p class="card-text">Apariencia divertida, ocurrente, original,. Presencia de prendas y accesorios de diferentes estilos. Transmite creatividad, libertad, apertura.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><input type="radio" aria-label="Radio button for following text input" value="4"> Sexy</h4>
+          <p class="card-text">Apariencia llamativa, seductora, avasallante. Predominio de prendas y accesorios que revelan el cuerpo. Transmite sensualidad, osadia, atracción.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="assets/img/theme/clasico.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title"><input type="radio" aria-label="Radio button for following text input" value="5"> Romántico</h4>
+          <p class="card-text">Apariencia cálidad, apacible, soñadora. Predominio de prendas y accesorios delicados y unn porco recargados. Transmite suavidad, frescura, inocencia.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row mb-10" style="margin-top:20px; margin-bottom:60px;float:right">
+    <button type="button" class="btn btn-primary">Guardar</button>
+  </div>
       <!-- Footer -->
-      <footer class="py-5" id="footer-main">
+      <footer class="py-5" id="footer-main" style="margin-top:60px;">
         <div class="container">
           <div class="row align-items-center justify-content-xl-between">
             <div class="col-xl-6">

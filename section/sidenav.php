@@ -15,16 +15,22 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" href="perfil.php">
-                <i class="ni ni-single-02 text-yellow"></i>
+                <i class="ni ni-single-02 text-purple"></i>
                 <span class="nav-link-text">Perfil</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="cuerpo.php">
-                <i class="ni ni-diamond text-default"></i>
+                <i class="ni ni-diamond text-red"></i>
                 <span class="nav-link-text">Mi asesoramiento</span>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ocacion.uso.php">
+                <i class="ni ni-active-40 text-pink"></i>
+                <span class="nav-link-text">Ocación de uso</span>
+              </a>
+            </li>            
           </ul>
           <!-- Divider -->
           <hr class="my-3">

@@ -45,6 +45,7 @@
 <div class="row">
           <div class="col-lg-12 col-md-12 ">
             <h1 class="display-2 text-white">Conocé tu tipo de Cuerpo</h1>
+            <p class="text-white mt-0">La silueta nos hace pensar en la forma del cuerpo. Pero también tenemos que tener en cuenta la silueta del cuerpo vestido. La cual está determinada por la ropa que usamos generando equilibrios y proporciones donde deseemos.</p>
             <p class="text-white mt-0 mb-5">Seleccioná el que mas se ajusta a tus características</p>
             <!--a href="#!" class="btn btn-neutral">Edit profile</a-->
           </div>
