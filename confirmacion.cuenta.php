@@ -68,9 +68,6 @@
               <div class="text-muted text-center mt-2 mb-3">Gracias por unirte a nuestra comunidad! </div>
             </div>
             <div class="card-body px-lg-5 py-lg-5" >
-              <div class="text-center text-muted mb-4">
-                <small>Ingresá</small>
-              </div>
               <form role="form">
                 <div class="text-center">
                   <button type="button" class="btn btn-primary my-4">Iniciar sesión</button>
