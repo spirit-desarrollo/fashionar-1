@@ -22,15 +22,21 @@
             <li class="nav-item">
               <a class="nav-link" href="cuerpo.php">
                 <i class="ni ni-diamond text-red"></i>
-                <span class="nav-link-text">Mi asesoramiento</span>
+                <span class="nav-link-text">Cuerpo y Estilo</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="ocacion.uso.php">
-                <i class="ni ni-active-40 text-pink"></i>
+                <i class="ni ni-tie-bow text-pink"></i>
                 <span class="nav-link-text">Ocación de uso</span>
               </a>
-            </li>            
+            </li>   
+            <li class="nav-item">
+              <a class="nav-link" href="test.php">
+                <i class="ni ni-satisfied text-orange"></i>
+                <span class="nav-link-text">Mi asesoramiento</span>
+              </a>
+            </li>  
           </ul>
           <!-- Divider -->
           <hr class="my-3">
@@ -42,13 +48,13 @@
           <ul class="navbar-nav mb-md-3">
             <li class="nav-item">
               <a class="nav-link active active-pro" href="#">
-                <i class="ni ni-support-16 text-orange"></i>
-                <span class="nav-link-text">Soporte</span>
+                <i class="ni ni-email-83 text-yellow"></i>
+                <span class="nav-link-text">Contacto</span>
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link active active-pro" href="#">
-                <i class="ni ni-user-run text-yellow"></i>
+                <i class="ni ni-user-run text-green"></i>
                 <span class="nav-link-text">Cerrar sesión</span>
               </a>
             </li>

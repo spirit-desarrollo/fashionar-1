@@ -154,7 +154,7 @@
             </a><div class="card-body">
               <h5 class="h4 card-title mb-0">Rectángulo</h5>
               
-              <p class="card-text mt-4" style="font-size: 0.9rem;">Tus hombros, busto y cadera son del mismo ancho</p>
+              <p class="card-text mt-4" style="font-size: 0.9rem;">Tus hombros, busto y cadera son del mismo ancho, sin una cintura definida</p>
 <!--a href="#!" class="btn btn-link px-0">Elegir</a-->
             </div>
           </div>
